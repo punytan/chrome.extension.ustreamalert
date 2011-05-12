@@ -1,11 +1,16 @@
 {
-  "name": "My First Extension",
-  "version": "1.0",
-  "description": "The first extension that I made.",
-  "browser_action": {
-    "default_icon": "icon.png"
-  },
+  "name"            : "Ustream Alert",
+  "description"     : "Ustream Alert (Unofficial)",
+  "version"         : "0.1",
+  "options_page"    : "options.html",
+  "background_page" : "background.html",
   "permissions": [
-    "http://api.flickr.com/"
-  ]
+    "http://www.ustream.tv/*/*",
+    "background",
+    "notifications"
+  ],
+  "icons" : {
+    "48"  : "img/twitlogo.png",
+    "128" : "img/twitlogo.png"
+  }
 }
